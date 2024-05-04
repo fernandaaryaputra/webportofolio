@@ -6,8 +6,27 @@
     },
     "routes": [
         {
+            "src": "/img/(.*)",
+            "dest": "public/img/"
+        },
+        {
+            "src": "/js/(.*)",
+            "dest": "public/js/"
+        },
+        {
+            "src": "/resources/css/(.*)",
+            "dest": "/resources/css/"
+        },
+        { "src": "/resources/(.*)", "dest": "/resources/$1" },
+
+        {
             "src": "/(.*)",
             "dest": "/api/index.php"
+        },
+
+        {
+            "src": "/(.*)",
+            "dest": "/resources/css/app.css"
         }
     ],
     "env": {

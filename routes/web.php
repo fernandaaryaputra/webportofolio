@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\TamuController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,9 +15,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('front.home');
 });
 
+
+Route::get('/back/portofolio',[TamuController::class,'index']);
+Route::get('/back/portofolio/delete/{id}',[TamuController::class,'destroy']);
+Route::match(['get','post'],'/back/portofolio/update/{id}',[TamuController::class,'update']);
+
+Route::match(['get','post'],'/',[TamuController::class,'store']);
 Route::get('/welcome', function () {
     return view('welcome');
 });
