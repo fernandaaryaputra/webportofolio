@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Fernanda Arya Putra</h1>
 <h3 align="center">A passionate frontend developer from Indonesia</h3>
 
-- 👨‍💻 All of my projects are available at [webfernanda.my.id](webfernanda.my.id)
+- 👨‍💻 All of my projects are available at [webfernanda.my.id](https://webfernanda.my.id)
 
 - ⚡ Fun fact **I Think I FAST**
 
