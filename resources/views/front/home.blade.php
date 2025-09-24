@@ -362,15 +362,7 @@
     </section>
     <!-- Hero section End -->
     <!-- Sosmed -->
-    <div class="absolute -bottom-5 left-0 w-full overflow-hidden leading-[0]">
-        <svg class="relative block w-full h-16" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
-            viewBox="0 0 1200 120">
-            <path
-                d="M321.39 56.44c58-10.79 114-30.09 172-41.86C613-3.2 673.81 1.48 733.67 14c59.54 12.46 113.73 35.55 172.29 47.59C986.26 73.8 1051.6 74 1111 61.3c58.54-12.39 108.86-36.26 166-48.83V120H0V0C55.74 22.32 112.31 39.46 169.68 50.11c56.31 10.38 112.94 14.58 169.68 6.33z"
-                fill="#101010"></path>
-        </svg>
 
-    </div>
 
     <section class="pt-10 bg-[#101010] " id="tentang">
         <div class="container">
