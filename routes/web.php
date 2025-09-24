@@ -27,3 +27,10 @@ Route::match(['get','post'],'/',[TamuController::class,'store']);
 Route::get('/welcome', function () {
     return view('welcome');
 });
+
+Route::get('/detail-sripaduka', function(){
+    return view('front.detail-sripaduka');
+});
+Route::get('/detail-camping', function(){
+    return view('front.detail-camping');
+});
