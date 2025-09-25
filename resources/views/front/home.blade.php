@@ -185,53 +185,53 @@
      
     @endif
     --}}
-    <header
-        class="bg-transparent absolute top-0 left-0 w-full flex items-center z-30 animate__animated animate__fadeInDown ">
-        <div class="container">
-            <div class="flex flex-wrap items-center justify-between relative">
-                <div class="px-4">
-                    <a href="#Home" class="font-bold text-4xl text-primary block py-6">Fernanda <span
-                            class="text-white">.Id</span></a>
-                </div>
-                <div class="flex items-center px-4">
-                    <button id="hamburger" name=" hamburger" type="button" class="block absolute right-4 lg:hidden">
-                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left">
-                        </span>
-                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
-                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
-                    </button>
-                    <nav id="nav-menu"
-                        class="hidden absolute py-5 bg-primary shadow-lg shadow-white rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
-                        <ul class="block lg:flex">
-                            <li class="group">
-                                <a href="#home"
-                                    class="text-base font-bold text-white py-2 mx-8 flex group-hover:text-black active:font-bold">HOME</a>
-                            </li>
-                            {{-- <li class="group">
-                  <a
-                    href="#Tentangsaya"
-                    class="text-base font-bold text-white py-2 mx-8 flex group-hover:text-black active:font-bold"
-                    >Tentang Saya</a
-                  >
-                </li> --}}
-                            <li class="group">
-                                <a href="#Service"
-                                    class="text-base font-bold text-white py-2 mx-8 flex group-hover:text-black active:font-bold">KEMAMPUAN</a>
-                            </li>
-                            <li class="group">
-                                <a href="#Portofolio"
-                                    class="text-base font-bold text-white py-2 mx-8 flex group-hover:text-black active:font-bold">PROJECT</a>
-                            </li>
-                            <li class="group">
-                                <a href="#tentang"
-                                    class="text-base font-bold text-white py-2 mx-8 flex group-hover:text-black active:font-bold">TENTANG</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
+    
+
+    <header class="bg-transparent fixed top-0 left-0 w-full flex items-center z-30 animate__animated animate__fadeInDown">
+  <div class="container mx-auto">
+    <div class="flex flex-wrap items-center justify-between relative">
+      <!-- Logo -->
+      <div class="px-4">
+        <a href="#home" class="font-bold text-4xl text-primary block py-6">
+          Fernanda <span class="text-white">.Id</span>
+        </a>
+      </div>
+
+      <!-- Hamburger Button -->
+      <div class="flex items-center px-4">
+        <button id="hamburger" type="button" class="block lg:hidden focus:outline-none">
+          <span class="hamburger-line block w-[30px] h-[2px] bg-white my-2 transition duration-300"></span>
+          <span class="hamburger-line block w-[30px] h-[2px] bg-white my-2 transition duration-300"></span>
+          <span class="hamburger-line block w-[30px] h-[2px] bg-white my-2 transition duration-300"></span>
+        </button>
+
+        <!-- Nav Menu -->
+        <nav id="nav-menu"
+          class="hidden absolute py-5 bg-primary shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+          <ul class="block lg:flex">
+            <li class="group">
+              <a href="#home"
+                class="text-base font-bold text-white py-2 mx-8 flex group-hover:text-black active:font-bold">HOME</a>
+            </li>
+            <li class="group">
+              <a href="#Service"
+                class="text-base font-bold text-white py-2 mx-8 flex group-hover:text-black active:font-bold">KEMAMPUAN</a>
+            </li>
+            <li class="group">
+              <a href="#Portofolio"
+                class="text-base font-bold text-white py-2 mx-8 flex group-hover:text-black active:font-bold">PROJECT</a>
+            </li>
+            <li class="group">
+              <a href="#tentang"
+                class="text-base font-bold text-white py-2 mx-8 flex group-hover:text-black active:font-bold">TENTANG</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
     {{-- navbar section end --}}
     <!-- Hero section start -->
     <section id="home" class="py-10 bg-backgpround">
@@ -364,45 +364,38 @@
     <!-- Sosmed -->
 
 
-    <section class="pt-10 bg-[#101010] " id="tentang">
-        <div class="container">
-            <h1
-                class="text-6xl mt-10 mb-10 text-center font-bold text-white  bg-clip-text text-transparent lg:text-6xl">
-                Tentang
-                <span class="block w-44 h-0.5 bg-primary mx-auto mt-4"></span>
-            </h1>
-            <br>
-            <div class=" w-full flex px-40 mb-20">
-                <p class="w-full text-white text-2xl mb-10 text-center"> Saya seorang Full-Stack Web Developer lulusan
-                    D3 Teknik
-                    Komputer yang memiliki
-                    ketertarikan besar dalam pengembangan aplikasi web, mulai dari perancangan antarmuka (UI/UX) hingga
-                    pengelolaan basis data dan backend system. Selama studi, saya telah mengerjakan beberapa proyek,
-                    termasuk tugas akhir yang berfokus pada pengembangan aplikasi berbasis web. Selain itu, saya juga
-                    memiliki minat pada pengembangan Internet of Things (IoT), khususnya dalam menghubungkan perangkat
-                    sensor dengan aplikasi berbasis web. Saya terbiasa menggunakan teknologi seperti Laravel, Tailwind
-                    CSS,
-                    MySQL, dan CodeIgniter 3, serta selalu terbuka untuk mempelajari framework maupun tools baru. Saya
-                    percaya bahwa pengalaman nyata dan semangat belajar adalah kunci untuk berkembang di industri
-                    teknologi serta menciptakan solusi digital yang bermanfaat.</p>
-                {{-- <p>
+   <section class="pt-10 bg-[#101010]" id="tentang">
+  <div class="container mx-auto px-4">
+    <!-- Judul -->
+    <h1 class="text-4xl sm:text-5xl lg:text-6xl mt-10 mb-10 text-center font-bold text-white">
+      Tentang
+      <span class="block w-32 sm:w-44 h-0.5 bg-primary mx-auto mt-4"></span>
+    </h1>
 
-                </p> --}}
+    <!-- Isi -->
+    <div class="w-full flex justify-center mb-20">
+      <p class="w-full md:w-4/5 lg:w-3/4 text-white text-base sm:text-lg md:text-xl lg:text-2xl text-center leading-relaxed">
+        Saya seorang Full-Stack Web Developer lulusan
+        D3 Teknik Komputer yang memiliki ketertarikan besar dalam pengembangan aplikasi web, mulai dari perancangan
+        antarmuka (UI/UX) hingga pengelolaan basis data dan backend system. Selama studi, saya telah mengerjakan beberapa proyek,
+        termasuk tugas akhir yang berfokus pada pengembangan aplikasi berbasis web. Selain itu, saya juga memiliki minat pada
+        pengembangan Internet of Things (IoT), khususnya dalam menghubungkan perangkat sensor dengan aplikasi berbasis web.
+        Saya terbiasa menggunakan teknologi seperti Laravel, Tailwind CSS, MySQL, dan CodeIgniter 3, serta selalu terbuka
+        untuk mempelajari framework maupun tools baru. Saya percaya bahwa pengalaman nyata dan semangat belajar adalah kunci
+        untuk berkembang di industri teknologi serta menciptakan solusi digital yang bermanfaat.
+      </p>
+    </div>
+  </div>
 
-            </div>
+  <!-- Wave SVG -->
+  <div class="w-full overflow-hidden">
+    <svg class="relative block w-full h-20 sm:h-28 lg:h-40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320">
+      <path fill="#2A2A2A" fill-opacity="1" d="M0,160C480,0,960,320,1440,160L1440,320L0,320Z"></path>
+    </svg>
+  </div>
+</section>
 
-        </div>
-        <!-- Wave SVG -->
-        <div class="w-full overflow-hidden">
-            <svg class="relative block w-full h-40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 1440 320">
-                <path fill="#2A2A2A" fill-opacity="1" d="M0,160C480,0,960,320,1440,160L1440,320L0,320Z"></path>
-            </svg>
-
-        </div>
-
-        {{-- <div class="bg-red-300 p-10"></div> --}}
-    </section>
 
 
 
@@ -756,7 +749,7 @@
 
             <!-- Kolom Kontak -->
             <div>
-                <h2 class="text-3xl font-bold mb-6 text-center md:text-left text-white">Kontak Kami</h2>
+                <h2 class="text-3xl font-bold mb-6 text-center md:text-left text-white">Kontak Saya</h2>
                 <div class="bg-white shadow-lg rounded-lg p-8">
                     <p class="mb-6 text-gray-700">
                         Silakan hubungi saya melalui email atau LinkedIn untuk diskusi lebih lanjut.
@@ -822,7 +815,14 @@
     {{-- <div class="mb-96"></div>
     <div class="mb-96"></div> --}}
     {{-- File Javascript --}}
+<script>
+  const hamburger = document.querySelector('#hamburger');
+  const navMenu = document.querySelector('#nav-menu');
 
+  hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('hidden');
+  });
+</script>
     <script>
         // navbar fixed
         window.onscroll = function() {
@@ -835,13 +835,14 @@
             }
         };
 
+
         // hamburger
-        const hamburger = document.querySelector("#hamburger");
-        const navMenu = document.querySelector("#nav-menu");
-        hamburger.addEventListener("click", function() {
-            hamburger.classList.toggle("hamburger-active");
-            navMenu.classList.toggle("hidden");
-        });
+        //const hamburger = document.querySelector("#hamburger");
+        // const navMenu = document.querySelector("#nav-menu");
+        // hamburger.addEventListener("click", function() {
+            // hamburger.classList.toggle("hamburger-active");
+            // navMenu.classList.toggle("hidden");
+        // });
     </script>
     <script src="js/script.js"></script>
     <script src="{{ asset('js/script.js') }}"></script>
